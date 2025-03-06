@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo avec OpenWeather</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <h1>Météo</h1>
+    <label for="city"></label><input type="text" id="city" placeholder="Entrez une ville">
+    <button onclick="fetchWeather()">Rechercher</button>
+    <div id="weatherResult"></div>
+    <p class="error" id="error"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
